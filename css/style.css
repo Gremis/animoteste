@@ -1,0 +1,348 @@
+.sandbox {
+    display: grid;
+    grid-gap: 10px;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    
+    font-family: Helvetica, sans-serif;
+    text-align: justify;
+  }
+
+  .sandbox > * {
+    background-color: white;
+  }
+
+  .logo img{
+    width: 100%; 
+
+
+    grid-column: span 1;
+ }
+
+
+.menu{
+    grid-column: span 2;
+}
+
+.menu li{
+    float: left;
+    list-style: none;
+    font-family: "Helvetica Now Display";
+    font-weight: bold;
+    margin-left: 4vw;
+    margin-top: 4vw;
+    font-size: 1.4vw;
+}
+
+.menu li:hover{
+    border-bottom:0.3rem solid #0172f5;
+}
+
+
+.banner img{
+    width: 100%;
+}
+
+.form-box{
+    width: 24vw;
+    background: #0172f5;
+    border-radius: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.arrow{
+    width: 10vw;
+}
+
+.flot{
+    color: white;
+    font-size: 1.5vw;
+}
+.boxblack{
+    background-color: black;
+    color: white;
+    font-family: unset;
+    font-size: 2vw;
+}
+
+.boxblack h1{
+    color: rgba(101,112,124,0.6);
+    font-family: 'Passion One';
+    font-size: 400%;
+    margin-left: 69%;
+    margin-bottom: -18%;
+    margin-top: 2%;
+ }
+
+ .boxblack p{
+    margin-left: 72%;
+    margin-top: 11%;
+
+ }
+
+
+ .form-box h1{
+    font-size: 8vw;
+    color: #f3f5ea;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 86%;
+    margin: 10%;
+}
+
+
+
+.form-box p{
+    font-size: 1.5vw;
+    color: #f3f5ea;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 3vw;
+}
+
+.form-box a:hover{
+    color: #0172f5;
+    text-decoration: underline;
+}
+
+.botons{
+    border: none;
+  color: #0172fe;
+  font-weight: bold;
+  padding: 1.1vw 2vw;
+  text-decoration: none;
+  font-size: 1.2vw;
+  margin: -1vw 5.5vw;
+  cursor: pointer;
+  border-radius: 4vw;
+  background-color: white;
+}
+ 
+
+
+
+
+.overlapping{
+
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 0.4fr 0.4fr 0.4fr 4fr;
+    grid-template-rows: 1fr 0.4fr 0.55fr 10px 0.1fr 0.4fr 0.1fr;
+
+    grid-gap: 5px;
+    grid-column: span 6;
+}
+
+.overlapping .banner:nth-child(1){
+    grid-row: 1 / span 6;
+    grid-column: 1 / span 6;
+}
+
+.overlapping .form-box:nth-child(2){
+    grid-row: 2 / span 5;
+    grid-column: 2 / span 2;
+    z-index: 2;
+}
+
+.overlapping .arrow-1:nth-child(3){
+    grid-row: 5 / span 6;
+    grid-column: 3 / span 4;
+    z-index: 3;
+}
+
+.overlapping .flot:nth-child(4){
+    grid-row: 4;
+    grid-column: 5;
+    z-index: 3;
+}
+
+.overlapping .boxblack:nth-child(5){
+    grid-row: 6 / span 7;
+    grid-column: 1 / span 6;
+    z-index: 1;
+}
+
+.wordfor{
+    grid-column: 1 /  span 4;
+    text-align: center;
+    font-size: 1.7vw;
+    color: #0172f5;
+}
+
+
+
+
+
+.overlapp{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.08fr 0.75fr;
+
+    grid-column: span 4;
+}
+
+
+
+
+.overlapp .images-dev:nth-child(1){
+    grid-column: 1 /  span 4;
+    grid-row: 2 / span 2;
+
+}
+
+.overlapp .formi:nth-child(2){
+    grid-column: 2 /  span 3;
+    grid-row: 2 / span 3;
+    z-index: 2;
+}
+.overlapp .form-register:nth-child(3){
+    grid-column: 2 /  span 2;
+    grid-row: 2 / span 2;
+    z-index: 1;
+}
+
+
+
+.wood{
+    width: 98vw;
+
+}
+
+.words{
+    width: 13vw;
+    margin-top: 3vw;
+    margin-left: 1vw;
+}
+
+
+.form-register{
+    width: 49vw;
+    height: 29vw;
+    background-image: linear-gradient(90deg,#0172fe 30%,white 30%);
+    border-radius: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0172f5;
+    box-shadow: 9px 16px 46px rgb(214, 206, 206);
+}
+
+.form-register p{
+    margin-left: 18vw;
+    color: black;
+    font-size: 1.5vw;
+}
+
+.controler{
+    width: 26vw;
+    height: 1.5vw;
+    background: white;
+    padding: 1vw;
+    border-radius: 2vw;
+    margin-bottom: 1.2vw;
+    margin-left: 17vw;
+    border: 1px solid #0172f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botonr{
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.6vw 4vw;
+    font-size: 1.3vw;
+    margin-left: 34vw;
+    cursor: pointer;
+    border-radius: 3vw;
+    background-color: #0172fe;
+}
+
+
+
+.boblack{
+    grid-column: span 5;
+    grid-row: 7;
+
+    background-color: #0172f5;
+    color: white;
+    font-family: unset;
+    text-align: center;
+    font-size: 1.5vw;
+    width: 98vw;
+
+}
+
+
+.boblack h3{
+    margin: 4%;
+}
+
+.footer{
+    grid-column: span 5;
+    grid-row: 12;
+
+    color: black;
+    font-family: unset;
+    font-size: 1vw;
+}
+
+.footer p{
+    text-align: end;
+    margin-top: -4vw;
+}
+
+.footer img{
+    width: 20%
+} 
+
+@media screen and (min-width: 320px) and (max-width: 375px){
+
+    .menu li{
+        margin-left: 3vw;
+        margin-top: 0vw;
+        font-size: 1.2vw;
+    }
+    .words{
+        width: 0vw;
+    }
+    
+    
+    .form-register{
+        height: 33vw;
+        background: #0172f5;
+    }
+    
+    .form-register p{
+        margin-left: 17vw;
+    }
+    
+    .controler{
+        width: 39vw;
+        padding: 0.8vw;
+        margin-bottom: 0.2vw;
+        margin-left: 4vw;
+        font-size: 3vw;
+        border: 1px solid white;
+    }
+    
+    .botonr{
+        padding: 0.4vw 3vw;
+        color: #0172f5;
+        font-size: 1vw;
+        margin-left: 35vw;
+        background-color: white;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px){
+    .menu li{
+        margin-left: 3vw;
+        margin-top: 1vw;
+        font-size: 1.2vw;
+    }
+    
+    .controler{
+        margin-bottom: 0.8vw;
+        font-size: 2vw;
+    }
+}
